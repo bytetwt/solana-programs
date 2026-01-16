@@ -1,0 +1,77 @@
+# Contributing
+
+Thanks for your interest in contributing to this repository. ♥️
+
+This project is an open-source, community-driven collection of well-structured Solana program implementations, intended to help newcomers learn and explore on-chain development.
+
+Please follow the guidelines below to keep the repository consistent and maintainable.
+
+---
+
+## Repository Structure
+- `anchor/` - Programs built using the Anchor framework
+- `native/` - Programs built in native Rust
+- `pinocchio/` - Programs built using Pinocchio crates
+
+---
+
+## Commit Messages
+
+This repository follows **Conventional Commits**.
+
+
+#### Format:
+
+```
+<type>(optional-scope): short, imperative description
+```
+
+
+#### Common Types:
+
+- `feat` - new program, instruction, or functionality
+- `fix` - bug fixes
+- `docs` - documentation only changes
+- `test` - tests only
+- `refactor` - code changes without behavior change
+- `perf` - performance or compute optimizations
+- `chore` - tooling, configuration, or repo maintenance
+
+
+#### Examples:
+
+```
+feat(anchor-counter): add increment instruction
+feat(native-escrow): implement PDA authority
+docs(counter): add account layout diagram
+test(multisig): add CPI failure cases
+chore: initialize repository structure
+```
+
+---
+
+## Pull Requests
+
+- Keep PRs focused and minimal
+- Reference related issues where applicable
+- Ensure programs build and tests pass locally
+
+
+## Issues & Work Assignment
+
+Please **open an issue before starting work** on any new program, feature, or significant change.
+
+- Use issues to discuss ideas, proposals, and improvements
+- Wait for the issue to be **acknowledged or assigned** before starting work
+- Only work on issues that are **assigned to you** to avoid duplicate efforts
+- Small fixes (typos, minor documentation updates) may be submitted directly without an issue.
+
+This helps keep contributions coordinated and ensures a smooth experience for everyone.
+
+---
+
+<p align="center">
+  <em>
+    Happy contributing & keep Accelerating !
+  </em>
+</p>
